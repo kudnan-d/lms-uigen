@@ -134,7 +134,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/kundan_dombale/Documents/LMS/claude/uigen/src/generated/prisma",
+      "value": "/Users/kundan_dombale/Documents/LMS/claude/src/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -148,12 +148,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Users/kundan_dombale/Documents/LMS/claude/uigen/prisma/schema.prisma",
+    "sourceFilePath": "/Users/kundan_dombale/Documents/LMS/claude/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../prisma",
   "clientVersion": "6.10.1",
@@ -162,6 +161,7 @@ const config = {
     "db"
   ],
   "activeProvider": "sqlite",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
